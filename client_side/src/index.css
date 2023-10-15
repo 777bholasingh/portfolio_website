@@ -1,0 +1,41 @@
+/* universal selecter */
+* {
+  margin: 0;
+  padding :0;
+  box-sizing: border-box;
+ 
+}
+  /* dark mode */
+#dark {
+  background-color: #03001C;
+  color: #f4eee0;
+}
+
+#dark  .about-content h1 {
+  color: rgb(95, 21, 222);
+  font-family: cursive;
+  border-bottom: 2px solid gray;
+  text-align: center;
+  
+}
+
+#dark .tecks{
+
+  color: #FE7BE5;
+
+}
+
+#dark .about-content p span{
+  color:aqua;
+}
+
+
+@media (max-width: 600px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}

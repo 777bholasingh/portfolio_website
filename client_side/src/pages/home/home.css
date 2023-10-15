@@ -1,0 +1,131 @@
+.home-container{
+
+height: 280px;
+   color:white;   
+padding-left: 150px; 
+
+}
+/* .home_content{
+
+  /* display: flex; */
+
+.home_content h4{
+  padding: 4px;
+   padding-top: 70px; 
+  
+  /* margin-left: 140px; */
+
+}
+
+  
+   .home_content h1{
+  
+     padding: 4px;
+  color: #f29f67;
+ 
+     
+
+  } 
+
+ 
+  
+  .home-buttons {
+    /* margin-left: 140px;  */
+    margin-top: 20px;
+  }
+  
+  .home-buttons .btn-hire {
+    background-color:#fcbf49;
+    color: rgb(88, 7, 169);
+    width: 160px;
+    border-radius: 40px;
+    border: 2px solid #78290f;
+  }
+  .home-buttons .btn-hire:hover {
+    background-color: rgb(114, 11, 224);
+    color: #f1ee1a;
+    width: 180px;
+    transition: 1s;
+  }
+  
+  .home-buttons .btn-resume {
+    
+    background-color: aqua;
+    margin-left: 20px;
+    border-radius: 40px;
+    width: 150px;
+  }
+  
+  .home-buttons .btn-resume:hover {
+    background-color: #f29f67;
+    transition: 1s;
+    width: 180px;
+    color: rgb(44, 38, 228);
+  
+  }
+  
+  .theme-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #102C57;
+    margin-top: 10px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    border-radius: 80px;
+    z-index: 1;
+  }
+
+
+  /* media queries for mobile view */
+  @media (max-width: 600px) {
+    .home-container {
+      padding: 0; 
+      margin: 0;
+      margin-top: 70px;
+    }
+    .home-container h3 {
+      font-size: 24px;
+    }
+    .home-container h2 {
+      font-size: 24px;
+    }
+    .home-buttons .btn-resume {
+    
+      background-color: aqua;
+      margin-left: 20px;
+      border-radius: 40px;
+      width: 120px;
+    }
+
+    .home-buttons .btn-hire {
+      background-color:#fcbf49;
+      color: rgb(88, 7, 169);
+      width: 120px;
+      border-radius: 40px;
+      border: 2px solid #78290f;
+    }
+    .home-buttons .btn-resume:hover {
+      background-color: #f29f67;
+      transition: 1s;
+      width: 130px;
+      color: rgb(44, 38, 228);
+    
+    }
+    .home-buttons .btn-hire:hover {
+      background-color: rgb(114, 11, 224);
+      color: #f1ee1a;
+      width: 130px;
+      transition: 1s;
+    }
+    
+
+
+
+  }
